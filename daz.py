@@ -75,7 +75,7 @@ def update_table(contents, filename):
             [
                 html.H5(filename),
                 dash_table.DataTable(
-                    data=df.to_dict("rows"),
+                    data=df.to_dict("records"),
                     columns=[{"name": i, "id": i,'deletable': True,
                         'renamable': True} for i in df.columns],
                     
