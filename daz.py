@@ -111,4 +111,4 @@ def update_table(contents, filename):
         )
     return table
 if __name__ == "__main__":
-    app.run_server(debug=False)
+    app.run_server(debug=True)
