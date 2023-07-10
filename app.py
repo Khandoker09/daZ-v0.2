@@ -15,10 +15,10 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.SLATE])
 server = app.server
 app.layout = html.Div([
             html.H1('DaZ 0.2: A interactive dashboard for data analysis'),
-            html.H2('Using this tools we can do the following:'),
+            html.H2('Using this tool we can do the following:'),
             html.H5('1.Filter column.'),
             html.H5('2.Delete an entire column and also rename the column.'),
-            html.H5('3.Sort column in asending, desending order.'),
+            html.H5('3.Sort columns in ascending, descending order.'),
             html.H5('4.Delete specific rows.'),
             html.H5('5.Export after cleaning the data.'),
             html.Hr(),
